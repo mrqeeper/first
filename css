@@ -1,0 +1,96 @@
+/* Reset Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Header Styles */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 0;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+}
+
+nav ul li {
+  margin-right: 20px;
+}
+
+nav ul li:last-child {
+  margin-right: 0;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+/* Hero Section Styles */
+#hero {
+  background-color: #f4f4f4;
+  text-align: center;
+  padding: 100px 0;
+}
+
+#hero h2 {
+  margin-bottom: 20px;
+}
+
+#hero p {
+  margin-bottom: 40px;
+}
+
+/* How It Works Section Styles */
+.step {
+  margin-bottom: 40px;
+}
+
+/* Join Now Section Styles */
+#join-now {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 100px 0;
+}
+
+#join-now .btn {
+  background-color: #fff;
+  color: #333;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+#join-now .btn:hover {
+  background-color: #ddd;
+}
+
+/* Footer Styles */
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
